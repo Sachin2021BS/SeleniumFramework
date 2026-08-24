@@ -1,8 +1,12 @@
 package com.utility;
 
+import com.constants.Browser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public abstract class BrowserUtility {
 
@@ -14,6 +18,18 @@ public abstract class BrowserUtility {
 
     public BrowserUtility(WebDriver driver) {
         this.driver = driver; // initialize the instance variable driver
+    }
+
+    public BrowserUtility(Browser browserName){
+        if (browserName == Browser.CHROME){
+            driver = new ChromeDriver();
+        } else if (browserName == Browser.EDGE) {
+            driver = new EdgeDriver();
+        } else if (browserName == Browser.FIREFOX) {
+           driver = new FirefoxDriver();
+        } else {
+            System.err.println("Please select Vaild browserName like Chrome or Edge... ");
+        }
     }
 
     public void goToWebsite(String url){

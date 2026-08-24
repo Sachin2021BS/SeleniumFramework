@@ -10,10 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LoginTest2 {
     static void main(String[] args) {
         //Launch a browser  and Browser session is created!!
-        WebDriver wd = new ChromeDriver();
-        HomePage homePage = new HomePage(wd);
-        LoginPage loginPage= homePage.goToLoginPage();
-
-        loginPage.doLoginWith("varoteb142@ebflyai.com", "Password");
+//        WebDriver wd = new ChromeDriver();
+//        HomePage homePage = new HomePage(wd);
+//        LoginPage loginPage= homePage.goToLoginPage();
+//
+//        loginPage.doLoginWith("varoteb142@ebflyai.com", "Password");
     }
 }
