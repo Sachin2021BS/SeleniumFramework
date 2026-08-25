@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "emailAddress" : "test@gmail.com",
+      "password": "Password"
+    },
+    {
+      "emailAddress" : "varoteb142@ebflyai.com",
+      "password": "Password"
+    }
+  ]
+}

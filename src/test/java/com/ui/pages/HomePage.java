@@ -2,8 +2,12 @@ package com.ui.pages;
 
 import com.constants.Browser;
 import static com.constants.Env.*;
+
+import com.constants.Env;
 import com.utility.BrowserUtility;
 import static com.utility.PropertiesUtil.*;
+
+import com.utility.Jsonutility;
 import org.openqa.selenium.By;
 
 public final class HomePage extends BrowserUtility {
@@ -12,7 +16,8 @@ public final class HomePage extends BrowserUtility {
 
     public HomePage(Browser browserName) {
         super(browserName); // To call the parent constructor we use super key word
-        goToWebsite(readProperty(QA, "URL"));
+        //goToWebsite(readProperty(QA, "URL")); // This is for Property File
+        goToWebsite(Jsonutility.readJsonFile(QA)); // This is for JSON File
         maximizeWindow();
     }
 

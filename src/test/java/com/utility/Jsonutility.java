@@ -25,7 +25,7 @@ public class Jsonutility {
         }
 
         Config config = gson.fromJson(fileReader, Config.class);
-        Environment environment = config.getEnvironments().get(QA);
+        Environment environment = config.getEnvironments().get("QA");
         System.out.println(environment.getUrl());
 
         return environment.getUrl();

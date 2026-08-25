@@ -2,6 +2,7 @@ package com.ui.tests;
 
 
 import com.ui.pages.HomePage;
+import com.ui.pojo.User;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -17,8 +18,9 @@ public class LoginTest {
     }
 
 
-    @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"})
-    public void loginTest() {
-        assertEquals(homePage.goToLoginPage().doLoginWith("varoteb142@ebflyai.com", "Password").getUserName(),"Sachin B S" );
+    @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"},
+     dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginDataProvider")
+    public void loginTest(User user) {
+        assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Sachin B S" );
     }
 }
