@@ -1,31 +1,24 @@
 package com.ui.tests;
 
-import com.utility.BrowserUtility;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.ui.pages.HomePage;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import static com.constants.Browser.CHROME;
+import static org.testng.Assert.assertEquals;
 
 public class LoginTest {
-    static void main(String[] args) {
-        //Launch a browser  and Browser session is created!!
-        WebDriver wd = new ChromeDriver();
+    HomePage homePage;
 
-//        BrowserUtility browserUtility = new BrowserUtility(wd);
-//        browserUtility.goToWebsite("https://automationpractice.techwithjatin.com/");
-//        browserUtility.maximizeWindow();
-//
-//        By signInLinkLocator=By.xpath("//a[@class='login']");
-//        browserUtility.clickOn(signInLinkLocator);
-//
-//        By emailTextBoxLocator = By.xpath("//input[@id='email']");
-//        browserUtility.enterText(emailTextBoxLocator,"varoteb142@ebflyai.com");
-//
-//        By passwordTextBoxLocator = By.xpath("//input[@id='passwd']");
-//        browserUtility.enterText(passwordTextBoxLocator,"Password");
-//
-//        By signButtonLocator = By.xpath("//button[@id='SubmitLogin']");
-//        browserUtility.clickOn(signButtonLocator);
-//        //wd.quit();
+    @BeforeMethod(description = "Load the homepageof the website")
+    public void setup(){
+        homePage = new HomePage(CHROME);
+    }
+
+
+    @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"})
+    public void loginTest() {
+        assertEquals(homePage.goToLoginPage().doLoginWith("varoteb142@ebflyai.com", "Password").getUserName(),"Sachin B S" );
     }
 }
