@@ -4,6 +4,7 @@ import com.constants.Browser;
 import static com.constants.Env.*;
 
 import com.constants.Env;
+import com.ui.pojo.Environment;
 import com.utility.BrowserUtility;
 import static com.utility.PropertiesUtil.*;
 
@@ -17,7 +18,7 @@ public final class HomePage extends BrowserUtility {
     public HomePage(Browser browserName) {
         super(browserName); // To call the parent constructor we use super key word
         //goToWebsite(readProperty(QA, "URL")); // This is for Property File
-        goToWebsite(Jsonutility.readJsonFile(QA)); // This is for JSON File
+        goToWebsite(Jsonutility.readJsonFile(QA).getUrl()); // This is for JSON File
         maximizeWindow();
     }
 

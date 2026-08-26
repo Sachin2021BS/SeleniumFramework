@@ -1,7 +1,5 @@
 package com.utility;
 
-import static com.constants.Env.*;
-
 import com.constants.Env;
 import com.google.gson.Gson;
 import com.ui.pojo.Config;
@@ -13,7 +11,7 @@ import java.io.FileReader;
 
 public class Jsonutility {
 
-    public static String readJsonFile(Env QA) {
+    public static Environment readJsonFile(Env QA) {
 
         File jsonFile = new File(System.getProperty("user.dir")+ "/config/config.json");
         Gson gson = new Gson();
@@ -28,7 +26,7 @@ public class Jsonutility {
         Environment environment = config.getEnvironments().get("QA");
         System.out.println(environment.getUrl());
 
-        return environment.getUrl();
+        return environment;
 
     }
 }
