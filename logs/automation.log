@@ -1,29 +1,29 @@
-2026-08-26 21:10:47 [main] INFO com.ui.listeners.TestListener Test Suite Started 
-2026-08-26 21:10:49 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-26 21:10:49 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-26 21:10:49 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-26 21:10:59 [main] WARN com.ui.listeners.TestListener loginTest Skipped 
-2026-08-26 21:11:25 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-26 21:11:25 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-26 21:11:25 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-26 21:11:35 [main] WARN com.ui.listeners.TestListener loginTest Skipped 
-2026-08-26 21:11:40 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-26 21:11:40 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-26 21:11:40 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-26 21:11:51 [main] WARN com.ui.listeners.TestListener loginTest Skipped 
-2026-08-26 21:12:28 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-26 21:12:28 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-26 21:12:28 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-26 21:12:39 [main] ERROR com.ui.listeners.TestListener loginTest Failed 
-2026-08-26 21:12:39 [main] ERROR com.ui.listeners.TestListener Expected condition failed: waiting for visibility of element found by By.xpath: //nav/div[1]//span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav/div[1]//span"}.
+2026-08-27 23:34:47 [main] INFO com.ui.listeners.TestListener Test Suite Started 
+2026-08-27 23:34:50 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-27 23:34:50 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
+2026-08-27 23:34:50 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-27 23:35:00 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-08-27 23:35:12 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-27 23:35:12 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
+2026-08-27 23:35:12 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-27 23:35:25 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-08-27 23:35:29 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-27 23:35:29 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
+2026-08-27 23:35:29 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-27 23:35:40 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-08-27 23:36:07 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-27 23:36:07 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
+2026-08-27 23:36:07 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-27 23:36:17 [main] ERROR com.ui.listeners.TestListener loginTest Failed 
+2026-08-27 23:36:17 [main] ERROR com.ui.listeners.TestListener Expected condition failed: waiting for visibility of element found by By.xpath: //nav/div[1]//span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav/div[1]//span"}.
 (tried for 10 seconds with 500 milliseconds interval)
 Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '25.0.3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '17.0.20.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /var/folders/br/c5qy87rs26z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52194}, goog:processID: 4973, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52194/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3fdd319e8229f4e494dbe861af742eb6 
-2026-08-26 21:12:41 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-26 21:12:41 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-26 21:12:41 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-26 21:12:42 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-26 21:12:42 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: /var/folders/br/c5qy87rs26z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59805}, goog:processID: 15038, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59805/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9fe78ed3cd7f2c974d89cd5f232437b 
+2026-08-27 23:36:19 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-27 23:36:19 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
+2026-08-27 23:36:19 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-27 23:36:20 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
+2026-08-27 23:36:20 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
