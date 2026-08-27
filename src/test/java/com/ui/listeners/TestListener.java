@@ -37,6 +37,7 @@ public class TestListener implements ITestListener {
         logger.error(result.getMethod().getMethodName()+" "+ "Failed");
         logger.error(result.getThrowable().getMessage());
         ExtentReporterUtility.getTest().log(Status.FAIL, result.getMethod().getMethodName()+ " " + "Failed");
+        ExtentReporterUtility.getTest().log(Status.FAIL, result.getThrowable().getMessage());
     }
 
     public void onTestSkipped(ITestResult result) {
