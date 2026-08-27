@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23c6199-425e-47b6-9ea0-9ec9bcd32697" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/listeners/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     "TestNG.LoginTest.loginTest2.executor": "Run",
     "TestNG.LoginTest3.loginTest.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "ExtentReport",
+    "git-widget-placeholder": "TakeScreenShot",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/sachinbs/IdeaProjects/SeleniumFramework",
     "nodejs_package_manager_path": "npm",
@@ -79,6 +78,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ui.tests" />
       <recent name="com.ui.pojo" />
       <recent name="com.ui.pages" />
     </key>
@@ -89,7 +89,7 @@
       <recent name="com.ui.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
+  <component name="RunManager" selected="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
@@ -173,8 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG.LoginTest.loginTest2" />
         <item itemvalue="TestNG.LoginTest.loginCSVTest" />
         <item itemvalue="TestNG.LoginTest" />
