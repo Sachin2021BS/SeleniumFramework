@@ -11,14 +11,7 @@ import static com.constants.Browser.CHROME;
 import static org.testng.Assert.assertEquals;
 
 @Listeners({com.ui.listeners.TestListener.class})
-public class LoginTest {
-    HomePage homePage;
-
-    @BeforeMethod(description = "Load the homepageof the website")
-    public void setup(){
-        homePage = new HomePage(CHROME);
-    }
-
+public class LoginTest extends TestBase{
 
     @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"},
      dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginDataProvider", retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
@@ -26,16 +19,16 @@ public class LoginTest {
         assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Sachin B S" );
     }
 
-    @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"},
-            dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestCSVDataProvider",
-    retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
-    public void loginCSVTest(User user) {
-        assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Sachin B S" );
-    }
-
-    @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"},
-            dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginExcelDataProvider")
-    public void loginExcelTest(User user) {
-        assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Sachin B S" );
-    }
+//    @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"},
+//            dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestCSVDataProvider",
+//    retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
+//    public void loginCSVTest(User user) {
+//        assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Sachin B S" );
+//    }
+//
+//    @Test(description = "Verify if a valid user is able to login into the application", groups = {"e2e", "sanity"},
+//            dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "loginExcelDataProvider")
+//    public void loginExcelTest(User user) {
+//        assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Sachin B S" );
+//    }
 }

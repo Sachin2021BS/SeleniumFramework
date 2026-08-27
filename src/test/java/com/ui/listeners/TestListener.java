@@ -4,6 +4,8 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.ui.tests.TestBase;
+import com.utility.BrowserUtility;
 import com.utility.ExtentReporterUtility;
 import com.utility.Loggerutility;
 import org.apache.logging.log4j.Logger;
@@ -16,10 +18,6 @@ import java.util.Arrays;
 public class TestListener implements ITestListener {
 
     Logger logger = Loggerutility.getLogger(this.getClass());
-
-    ExtentSparkReporter extentSparkReporter;
-    ExtentReports extentReports;
-    ExtentTest extentTest;
 
     public void onTestStart(ITestResult result) {
         logger.info(result.getMethod().getMethodName());
@@ -38,6 +36,13 @@ public class TestListener implements ITestListener {
         logger.error(result.getThrowable().getMessage());
         ExtentReporterUtility.getTest().log(Status.FAIL, result.getMethod().getMethodName()+ " " + "Failed");
         ExtentReporterUtility.getTest().log(Status.FAIL, result.getThrowable().getMessage());
+
+        Object testclass = result.getInstance();
+        BrowserUtility browserUtility= ((TestBase)testclass).getInstance();
+        logger.info("Capturing the screenshot for the failed test");
+        String scrrenshotPath = browserUtility.takeScreenShot(result.getMethod().getMethodName());
+        logger.info("Attaching the screenshot to the HTML file");
+        ExtentReporterUtility.getTest().addScreenCaptureFromPath(scrrenshotPath);
     }
 
     public void onTestSkipped(ITestResult result) {
