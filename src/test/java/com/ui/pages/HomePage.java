@@ -10,6 +10,7 @@ import static com.utility.PropertiesUtil.*;
 
 import com.utility.Jsonutility;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 public final class HomePage extends BrowserUtility {
     private static final By SIGN_IN_LINK_LOCATOR=By.xpath("//a[@class='login']");
@@ -20,6 +21,13 @@ public final class HomePage extends BrowserUtility {
         //goToWebsite(readProperty(QA, "URL")); // This is for Property File
         goToWebsite(Jsonutility.readJsonFile(QA).getUrl()); // This is for JSON File
         maximizeWindow();
+    }
+
+    public HomePage(WebDriver driver) {
+        super(driver); // To call the parent constructor we use super key word
+       // goToWebsite(readProperty(QA, "URL")); // This is for Property File
+        goToWebsite(Jsonutility.readJsonFile(QA).getUrl()); // This is for JSON File
+       maximizeWindow();
     }
 
     public LoginPage goToLoginPage(){

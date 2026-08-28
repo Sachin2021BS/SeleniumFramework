@@ -1,31 +1,10 @@
-2026-08-28 22:29:40 [main] INFO com.ui.listeners.TestListener Test Suite Started 
-2026-08-28 22:29:42 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-28 22:29:42 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-28 22:29:42 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-28 22:29:52 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
-2026-08-28 22:29:55 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-28 22:29:55 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-28 22:29:55 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-28 22:30:06 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
-2026-08-28 22:30:18 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-28 22:30:18 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-28 22:30:18 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-28 22:30:28 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
-2026-08-28 22:30:32 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-28 22:30:32 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-28 22:30:32 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-28 22:30:42 [main] ERROR com.ui.listeners.TestListener loginTest Failed 
-2026-08-28 22:30:42 [main] ERROR com.ui.listeners.TestListener Expected condition failed: waiting for visibility of element found by By.xpath: //nav/div[1]//span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav/div[1]//span"}.
-(tried for 10 seconds with 500 milliseconds interval)
-Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.6.2', java.version: '17.0.20.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.64, chrome: {chromedriverVersion: 152.0.7977.64 (506c834eccea..., userDataDir: /var/folders/br/c5qy87rs26z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61641}, goog:processID: 18644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61641/devtoo..., se:cdpVersion: 152.0.7977.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e0878199b48c7d6c1365c5f967940220 
-2026-08-28 22:30:42 [main] INFO com.ui.listeners.TestListener Capturing the screenshot for the failed test 
-2026-08-28 22:30:42 [main] INFO com.ui.listeners.TestListener Attaching the screenshot to the HTML file 
-2026-08-28 22:30:54 [main] INFO com.ui.listeners.TestListener loginTest 
-2026-08-28 22:30:54 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
-2026-08-28 22:30:54 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-28 22:30:55 [main] INFO com.ui.listeners.TestListener loginTest PASSED 
-2026-08-28 22:30:55 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
+2026-08-28 23:42:48 [main] INFO com.ui.listeners.TestListener Test Suite Started 
+2026-08-28 23:43:00 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-28 23:43:00 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
+2026-08-28 23:43:00 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-28 23:43:00 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-08-28 23:43:00 [main] INFO com.ui.listeners.TestListener loginTest 
+2026-08-28 23:43:00 [main] INFO com.ui.listeners.TestListener Verify if a valid user is able to login into the application 
+2026-08-28 23:43:00 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-28 23:43:00 [main] WARN com.ui.listeners.TestListener loginTest SKIPPED 
+2026-08-28 23:43:00 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
