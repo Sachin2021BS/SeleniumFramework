@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
+    <list default="true" id="b23c6199-425e-47b6-9ea0-9ec9bcd32697" name="Changes" comment="" />
+=======
     <list default="true" id="b23c6199-425e-47b6-9ea0-9ec9bcd32697" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/listeners/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +51,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CSVReadUtility.executor": "Run",
@@ -65,7 +72,7 @@
     "TestNG.LoginTest.loginTest2.executor": "Run",
     "TestNG.LoginTest3.loginTest.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "TakeScreenShot",
+    "git-widget-placeholder": "HeadlessMode",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/sachinbs/IdeaProjects/SeleniumFramework",
     "nodejs_package_manager_path": "npm",
@@ -74,8 +81,39 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CSVReadUtility.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Jsonutility.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PropertiesUtil.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginCSVTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginTest2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest3.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TakeScreenShot&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sachinbs/IdeaProjects/SeleniumFramework&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/sachinbs/IdeaProjects/SeleniumFramework/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+>>>>>>> Stashed changes
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ui.tests" />
@@ -89,7 +127,7 @@
       <recent name="com.ui.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml">
+  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
@@ -173,8 +211,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml" />
         <item itemvalue="TestNG.LoginTest.loginTest2" />
         <item itemvalue="TestNG.LoginTest.loginCSVTest" />
         <item itemvalue="TestNG.LoginTest" />
