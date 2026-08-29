@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public final class MyAccountPage extends BrowserUtility {
 
-    private static final By USER_NAME_LOCATOR = By.xpath("//nav/div[1]//span");
+    private static final By USER_NAME_LOCATOR = By.xpath("//a[@class='account']/span");
     public MyAccountPage(WebDriver driver) {
         super(driver);
     }
