@@ -60,8 +60,9 @@ jobs:
 
     - name: Deploy
       if: always()
-      uses: JamesIves/github-pages-deploy-actions@v4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: public/extent-reports/
         token: ${{ secrets.GITHUB_TOKEN }}
         clean: true
+
