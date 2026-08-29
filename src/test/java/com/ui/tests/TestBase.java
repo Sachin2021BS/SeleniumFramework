@@ -1,5 +1,6 @@
 package com.ui.tests;
 
+import com.constants.Browser;
 import com.ui.pages.HomePage;
 
 import com.utility.BrowserUtility;
@@ -10,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import java.net.MalformedURLException;
 
@@ -19,20 +22,23 @@ public class TestBase {
 
     protected HomePage homePage;
     Logger logger  = Loggerutility.getLogger(this.getClass());
-    private boolean isLambdaTest = true;
-    private boolean isHeadless = true;
+    private boolean isLambdaTest;
 
+    @Parameters({"browser", "isLambdaTest", "isHeadless"})
     @BeforeMethod(description = "Load the homepageof the website")
-    public void setup(ITestResult result) throws MalformedURLException {
+    public void setup(@Optional("chrome") String browser,
+                      @Optional("false") boolean isLambdaTest,
+                      @Optional("true") boolean isHeadless , ITestResult result)  {
+        this.isLambdaTest = isLambdaTest;
         WebDriver lambdaDriver = null;
         if(isLambdaTest){
-            LambdaTestUtility.intilaizeLambdaTestSession("chrome", result.getMethod().getMethodName());
+            LambdaTestUtility.intilaizeLambdaTestSession(browser, result.getMethod().getMethodName());
             homePage = new HomePage(lambdaDriver);
             
         } else {
             //Running the test on local Machine !!
             logger.info("Loading the homepageof the website");
-            homePage = new HomePage(CHROME, true);
+            homePage = new HomePage(Browser.valueOf(browser.toUpperCase()), isHeadless);
         }
     }
 
