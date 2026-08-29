@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b99c21a3-ca1b-461f-9ec4-e907fe365dec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/QA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/QA.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-selenium-sample" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-selenium-sample/src/test/com/lambdatest/BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-sample/src/test/com/lambdatest/BasicAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
