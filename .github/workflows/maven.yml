@@ -60,7 +60,7 @@ jobs:
 
     - name: Deploy
       if: always()
-      uses: JamesTves/github-deploy-actions@v4
+      uses: JamesIves/github-pages-deploy-actions@v4
       with:
         folder: public/extent-reports/
         token: ${{ secrets.PAT1234 }}
