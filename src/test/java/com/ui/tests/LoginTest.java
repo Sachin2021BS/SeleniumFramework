@@ -31,4 +31,11 @@ public class LoginTest extends TestBase{
 //    public void loginExcelTest(User user) {
 //        assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Sachin B S" );
 //    }
+
+    @Test(description = "Verify if the proper error message is shown for the user when they eneter invalid Credentails", groups = {"e2e", "sanity"},
+            retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
+    public void inValidCredsLoginTest(){
+        assertEquals(homePage.goToLoginPage().doLoginWithInvlaidCredentials("Test@gmail.com", "Test@1234").getErrorMessage(),
+                "Authentication failed.");
+    }
 }
