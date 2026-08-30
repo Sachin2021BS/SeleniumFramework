@@ -38,3 +38,4 @@ build/
 ### Mac OS ###
 .DS_Store
 /java-selenium-sample/
+/Report/

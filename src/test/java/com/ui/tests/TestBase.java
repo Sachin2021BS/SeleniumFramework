@@ -14,9 +14,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import java.net.MalformedURLException;
-
-import static com.constants.Browser.CHROME;
 
 public class TestBase {
 
@@ -28,7 +25,7 @@ public class TestBase {
     @BeforeMethod(description = "Load the homepageof the website")
     public void setup(@Optional("chrome") String browser,
                       @Optional("false") boolean isLambdaTest,
-                      @Optional("true") boolean isHeadless , ITestResult result)  {
+                      @Optional("false") boolean isHeadless , ITestResult result)  {
         this.isLambdaTest = isLambdaTest;
         WebDriver lambdaDriver = null;
         if(isLambdaTest){

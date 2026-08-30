@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b99c21a3-ca1b-461f-9ec4-e907fe365dec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-selenium-sample" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-selenium-sample/src/test/com/lambdatest/BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-sample/src/test/com/lambdatest/BasicAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +29,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml.executor": "Run",
+    "TestNG.LoginTest.inValidCredsLoginTest.executor": "Run",
     "TestNG.LoginTest.loginTest.executor": "Run",
-    "git-widget-placeholder": "MavenSureFirePlugin"
+    "git-widget-placeholder": "InvalidTest"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
+  <component name="RunManager" selected="TestNG.LoginTest.inValidCredsLoginTest">
+    <configuration name="LoginTest.inValidCredsLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ui.tests.LoginTest" />
+      <option name="METHOD_NAME" value="inValidCredsLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
@@ -58,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.inValidCredsLoginTest" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml" />
       </list>
