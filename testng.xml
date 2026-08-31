@@ -6,7 +6,8 @@
         <parameter name="isLambdaTest" value="${isLambdaTest}"></parameter>
         <parameter name="isHeadless" value="${isHeadless}"></parameter>
         <classes>
-            <class name="com.ui.tests.LoginTest"/>
+<!--            <class name="com.ui.tests.LoginTest"/>-->
+            <class name="com.ui.tests.SearchProductTest"/>
         </classes>
     </test>
 </suite>

@@ -10,9 +10,12 @@
       <change beforePath="$PROJECT_DIR$/java-selenium-sample" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-selenium-sample/src/test/com/lambdatest/BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-sample/src/test/com/lambdatest/BasicAuthentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +34,16 @@
     "TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml.executor": "Run",
     "TestNG.LoginTest.inValidCredsLoginTest.executor": "Run",
     "TestNG.LoginTest.loginTest.executor": "Run",
-    "git-widget-placeholder": "InvalidTest"
+    "TestNG.SearchProductTest.verifyproductSearchTest.executor": "Run",
+    "git-widget-placeholder": "ProductTest"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.inValidCredsLoginTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ui.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SearchProductTest.verifyproductSearchTest">
     <configuration name="LoginTest.inValidCredsLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
@@ -71,6 +80,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchProductTest.verifyproductSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ui.tests.SearchProductTest" />
+      <option name="METHOD_NAME" value="verifyproductSearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -83,9 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchProductTest.verifyproductSearchTest" />
+        <item itemvalue="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml" />
         <item itemvalue="TestNG.LoginTest.inValidCredsLoginTest" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
-        <item itemvalue="TestNG./Users/sachinbs/IdeaProjects/SeleniumFramework/testng.xml" />
       </list>
     </recent_temporary>
   </component>
