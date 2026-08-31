@@ -1,7 +1,11 @@
-2026-08-30 11:46:27 [main] INFO com.ui.listeners.TestListener Test Suite Started 
-2026-08-30 11:46:27 [main] INFO com.ui.tests.LoginTest Loading the homepageof the website 
-2026-08-30 11:46:29 [main] INFO com.ui.listeners.TestListener inValidCredsLoginTest 
-2026-08-30 11:46:29 [main] INFO com.ui.listeners.TestListener Verify if the proper error message is shown for the user when they eneter invalid Credentails 
-2026-08-30 11:46:29 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
-2026-08-30 11:46:29 [main] INFO com.ui.listeners.TestListener inValidCredsLoginTest PASSED 
-2026-08-30 11:46:29 [main] INFO com.ui.listeners.TestListener Test Suite Completed 
+2026-08-30 12:41:41 [main] INFO com.ui.listeners.TestListener Test Suite Started 
+2026-08-30 12:41:41 [main] INFO com.ui.tests.SearchProductTest Loading the homepageof the website 
+2026-08-30 12:41:43 [main] INFO com.ui.listeners.TestListener verifyproductSearchTest 
+2026-08-30 12:41:43 [main] INFO com.ui.listeners.TestListener Verify if the logged in user is able to search for a product and correct products search results are displayed 
+2026-08-30 12:41:43 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-08-30 12:41:44 [main] INFO com.ui.pages.MyAccountPage Finding the element with the locator By.xpath: //input[@id='search_query_top'] 
+2026-08-30 12:41:44 [main] INFO com.ui.pages.MyAccountPage Entering special keys  
+2026-08-30 12:41:44 [main] INFO com.ui.pages.SearchResultPage Finding all Elements with the locator: By.xpath: //h5[@itemprop='name']/a 
+2026-08-30 12:41:44 [main] INFO com.ui.pages.SearchResultPage Elements found and now printing the List of Elements 
+2026-08-30 12:41:44 [main] INFO com.ui.listeners.TestListener verifyproductSearchTest PASSED 
+2026-08-30 12:41:44 [main] INFO com.ui.listeners.TestListener Test Suite Completed 

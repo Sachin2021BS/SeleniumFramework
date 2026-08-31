@@ -2,6 +2,7 @@ package com.utility;
 
 import com.constants.Browser;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,11 +17,14 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public abstract class BrowserUtility {
 
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+    Logger logger = Loggerutility.getLogger(this.getClass());
 
     public  WebDriver getDriver() {
         return driver.get();
@@ -100,6 +104,23 @@ public abstract class BrowserUtility {
         return element.getText();
     }
 
+    public List<String> getAllVisibleText(By locator){
+        logger.info("Finding all Elements with the locator: " + locator);
+
+        List<WebElement> elementList= driver.get().findElements(locator);
+        logger.info("Elements found and now printing the List of Elements");
+        List<String> visibleTextList=new ArrayList<String>();
+        for (WebElement element : elementList) {
+            visibleTextList.add(element.getText());
+        }
+        return visibleTextList;
+    }
+
+    public String getVisibleText(WebElement element){
+        logger.info("Returning the Visible text  " + element.getText());
+        return element.getText();
+    }
+
     public String takeScreenShot(String name){
         TakesScreenshot screenshot = (TakesScreenshot)driver.get();
         File ScreenshotData = screenshot.getScreenshotAs(OutputType.FILE);
@@ -118,5 +139,12 @@ public abstract class BrowserUtility {
 
     public void quit(){
         driver.get().quit();
+    }
+
+    public void enterSpecialKey(By locator,Keys keysToEnter){
+        logger.info("Finding the element with the locator "+ locator);
+        WebElement element = driver.get().findElement(locator);
+        logger.info("Entering special keys "+ keysToEnter);
+        element.sendKeys(keysToEnter);
     }
 }
